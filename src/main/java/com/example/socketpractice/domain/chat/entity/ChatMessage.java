@@ -1,12 +1,6 @@
 package com.example.socketpractice.domain.chat.entity;
 
-import com.example.socketpractice.domain.user.entity.User;
-import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
-import com.fasterxml.jackson.datatype.jsr310.deser.LocalDateTimeDeserializer;
-import jakarta.persistence.*;
-import lombok.*;
-
-import java.time.LocalDateTime;
+import lombok.Getter;
 @Getter
 
 public class ChatMessage {
